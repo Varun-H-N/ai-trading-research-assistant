@@ -12,7 +12,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://ai-trading-research-assistant-xb27.onrender.com";
 
 const examples = [
   "Does NIFTY perform better during high volatility?",
