@@ -83,3 +83,86 @@ The application presents results, charts, insights, and research limitations.
 │ Experiment Generation       │
 │ Simulated Market Data       │
 └─────────────────────────────┘
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+- Recharts
+- CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- Axios
+- CORS
+
+### Development
+
+- Git
+- GitHub
+- VS Code
+
+## 📁 Project Structure
+
+```text
+ai-trading-research-assistant/
+│
+├── backend/
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
+│
+├── .gitignore
+└── README.md
+
+## ▶️ Running Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Varun-H-N/ai-trading-research-assistant.git
+cd ai-trading-research-assistant
+
+### 2. Start the Backend
+
+```bash
+cd backend
+npm install
+node server.js
+
+http://localhost:5000
+
+cd frontend
+npm install
+npm run dev
+
+📊 Example Research Question
+Does NIFTY perform better after a 1% fall during high volatility?
+
+🎯 Project Goal
+Natural Language
+       ↓
+Structured Understanding
+       ↓
+Experiment Definition
+       ↓
+Research Test
+       ↓
+Visual Results
+       ↓
+Insights & Caveats
